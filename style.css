@@ -1,0 +1,55 @@
+.center
+{
+    text-align: center;
+    padding: 10px;
+}
+
+body
+{
+    margin: 0;
+}
+
+.header
+{  
+    position:relative;
+    text-align: center;
+    margin: 0;
+    display: block;
+    padding: 5px;
+    background-color: rgb(209, 210, 211);
+}
+
+/* .headerRow
+{
+    overflow: hidden;
+    vertical-align:middle;
+}
+
+.headerRow img
+{
+    width: 5%;
+    margin-left: 3%;
+    float: left;
+    display: block;
+    
+} */
+
+.testButton
+{
+    display: unset;
+    top: initial;
+    left: initial;
+    position: absolute;
+    background-color: rgb(14, 96, 151);
+    color: rgb(221, 221, 221);
+    padding: 15px 32px;
+    margin-top: 10px;
+    text-align:center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid rgb(8, 55, 87);
+    transition-duration: 1s;
+    cursor:wait;
+    
+}
+
